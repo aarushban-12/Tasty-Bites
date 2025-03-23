@@ -1,0 +1,18 @@
+.card {
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+  }
+  

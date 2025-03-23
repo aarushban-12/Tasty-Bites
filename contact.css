@@ -1,0 +1,73 @@
+/* Contact Page Container */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94.5vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Contact Box */
+  .contact-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .contact-box h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Message Field */
+  .message-field {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* Send Button */
+  .send-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Success Message */
+  .success {
+    color: green;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
